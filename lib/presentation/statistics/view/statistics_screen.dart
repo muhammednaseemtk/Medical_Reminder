@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:medical_reminder/core/theme/app_colors.dart';
+import 'package:medical_reminder/presentation/statistics/widget/dashboard.dart';
 
 class StatisticsScreen extends StatefulWidget {
   const StatisticsScreen({super.key});
@@ -21,6 +22,10 @@ class _StatisticsScreenState extends State<StatisticsScreen> {
           preferredSize: Size.fromHeight(1),
           child: Container(color: AppColors.shadow, height: 1),
         ),
+      ),
+      body: Column(
+        children: [ 
+        ],
       ),
     );
   }
