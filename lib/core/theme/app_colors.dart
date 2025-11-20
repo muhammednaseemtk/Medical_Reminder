@@ -13,6 +13,7 @@ class AppColors {
   static const Color txtColor = Colors.black87;
   static const Color textColor1 = Color(0xFF42A5F5);
   static const Color textColor2 = Color(0xFFE57373);
+  static const Color textColor3 = Color(0xFFDBB4E2);
   static const Color shadow = Colors.grey;
   static const Color bgBtnColor = Color(0xFFE3F4E9);
   static const Color bgBtnColor1 = Color(0xFFE3F2FD);

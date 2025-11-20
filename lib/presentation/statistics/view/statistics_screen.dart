@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:medical_reminder/core/theme/app_colors.dart';
-import 'package:medical_reminder/presentation/statistics/widget/dashboard.dart';
+import 'package:medical_reminder/presentation/statistics/widget/weekly_chart.dart';
 
 class StatisticsScreen extends StatefulWidget {
   const StatisticsScreen({super.key});
@@ -23,9 +23,14 @@ class _StatisticsScreenState extends State<StatisticsScreen> {
           child: Container(color: AppColors.shadow, height: 1),
         ),
       ),
-      body: Column(
-        children: [ 
-        ],
+      body: SingleChildScrollView(
+        child: Column(
+          children: [
+            SizedBox(height: 15,),
+            WeeklyChart(),
+            SizedBox(height: 10,),
+          ],
+        ),
       ),
     );
   }
